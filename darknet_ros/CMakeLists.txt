@@ -252,7 +252,7 @@ if (NOT EXISTS "${FILE}")
   execute_process(COMMAND wget http://pjreddie.com/media/files/yolov3.weights -P ${PATH})
 endif()
 
-# Download yolov3.weights
+# Download yolov3-tiny.weights
 set(FILE "${PATH}/yolov3-tiny.weights")
 message(STATUS "Checking and downloading yolov3-tiny.weights if needed ...")
 if (NOT EXISTS "${FILE}")
